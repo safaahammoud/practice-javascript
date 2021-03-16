@@ -1,0 +1,1 @@
+// agreeing on an interface between the classes and only worry about using it the methods without caring about the implementation

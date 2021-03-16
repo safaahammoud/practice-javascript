@@ -1,0 +1,32 @@
+// main goal of design patterns is solve repeated problem and make a reusability standard to deal with it
+
+//static var or method is used when u want a single copy of it to be shared against multiple instancces of the class
+
+//Singelton(sharing a  single washmachine among all residents in hotel):
+    -restricts the instantation of the class to just one instance of it(that is done by having private constructor),
+        what is its instance: static variable that is only accessed by a static public method
+
+//Singelton example: when we have multiple applications and we want to have the same 
+    printing functionality to be shared across multiple applications 
+    -used for logging,caching and thread pool
+
+// Factory pattern: is when u have a superclass and sub-classes and based on inputs u return one of
+     its subclasses instance
+// Factory pattern example: you create computer class(can be astract,interface,or normal) and then u create sub classes 
+    PC,Server those 2 extends computer and you do a computer factory class and in its constructor you write an
+    if condition that if the string input is equal to the type of one of the class subclasses value ,you return
+    the instance of the matching sub class 
+    Or when you want to create different products based on the type so the input is type and if a type is invalid 
+    you throw exception (invalid type) so you create product factory for that that checks the types
+
+//oop concepts to review
+https://beginnersbook.com/2013/04/oops-concepts/
+
+//java design patterns
+https://www.journaldev.com/1827/java-design-patterns-example-tutorial#creational-patterns\
+
+//frontend design pattern angukar
+https://medium.com/ngx-rocket/the-missing-introduction-to-angular-and-modern-design-patterns-43e8815c2801
+
+//most asked questions about oop in interviews
+https://www.upgrad.com/blog/oops-interview-questions-answers-for-freshers-experienced/
